@@ -12,6 +12,31 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.color-red {
+  color: #c82021 !important;
+}
+
+.top-search-bar {
+  border-radius: 0;
+  box-sizing: border-box;
+}
+.top-search-bar .btn-grp {
+  flex: 0 0 44px;
+  border: 1px solid #c82021;
+  border: 0 none;
+  background: #c82021;
+  background-size: 16px 17px;
+  -webkit-appearance: none;
+  outline: none;
+  position: relative;
+  z-index: 2;
+  box-sizing: border-box;
+  border-radius: 0 2px 2px 0;
+}
+
+.navbar-items > button:not(:last-child) {
+  margin-right: 10px;
+}
 
 .App-header {
   background-color: #282c34;
